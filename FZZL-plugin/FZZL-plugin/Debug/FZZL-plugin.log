@@ -1,3 +1,10 @@
 ﻿  源.cpp
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(66): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(68): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(70): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(78): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(83): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
 c:\users\cky\documents\github\fzzl-plugin\fzzl-plugin\fzzl-plugin\源.cpp(21): warning C4101: “p”: 未引用的局部变量
   FZZL-plugin.vcxproj -> C:\Users\cky\Documents\GitHub\FZZL-plugin\FZZL-plugin\Debug\FZZL-plugin.exe

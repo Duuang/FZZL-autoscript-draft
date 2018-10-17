@@ -59,8 +59,72 @@ int main() {
   cout << (int)GetRValue(clr) << ", " << (int)GetGValue(clr) << ", " << (int)GetBValue(clr) << endl;
   system("pause");
   */
-  while (true) {  //刷3-10
+  while (true) {  //刷1-10
     //break;
+    send_click(subhwnd, 1149/1.5, 317/1.5); //点1-10
+    Sleep(500);
+    send_click(subhwnd, 991/1.5, 570/1.5);//进入副本
+    Sleep(4000);
+    send_click(subhwnd, 1092/1.5, 599/1.5);//战斗
+    Sleep(1000);
+    send_click(subhwnd, 1193/1.5, 284/1.5);//选助战
+    Sleep(10000);
+    //send_click(subhwnd, 1155, 670);
+    Sleep(500);
+    //send_click(subhwnd, 1155, 670);//技能3
+    ///Sleep(13000);
+    HDC hdc = GetDC(subwinhwnd);
+    while (true) {
+      COLORREF clr = ::GetPixel(hdc, 1028/1.5, 460/1.5);
+
+      if ((int)GetRValue(clr) == 245 && (int)GetGValue(clr) == 234 && (int)GetBValue(clr) == 110) {
+        break;
+      }
+      send_click(subhwnd, 945/1.5, 667/1.5);
+      Sleep(500);  //技能2
+      send_click(subhwnd, 945/1.5, 667/1.5);
+    }   
+  } 
+
+  while (true) {  //刷3-4
+    break;
+    send_click(subhwnd, 1042, 307); //点3-10
+    Sleep(500);
+    send_click(subhwnd, 991, 570);//进入副本
+    Sleep(500);
+    send_click(subhwnd, 991, 570);//选择队伍
+    Sleep(1000);
+    send_click(subhwnd, 1178, 672);//自动寻路
+    Sleep(4000);
+    send_click(subhwnd, 1092, 599);//战斗
+    Sleep(1000);
+    send_click(subhwnd, 1193, 284);//选助战
+    //Sleep(10000);
+    //send_click(subhwnd, 1155, 670);
+    //Sleep(500);
+    //send_click(subhwnd, 1155, 670);//技能3
+    ///Sleep(13000);
+    HDC hdc = GetDC(subwinhwnd);
+    while (true) {
+      COLORREF clr = ::GetPixel(hdc, 1042, 307);
+
+      if ((int)GetRValue(clr) == 3 && (int)GetGValue(clr) == 100 && (int)GetBValue(clr) == 219) {
+        break;
+      }
+      send_click(subhwnd, 1092, 599);//战斗
+      Sleep(500);
+      send_click(subhwnd, 1193, 284);
+      Sleep(500);
+      send_click(subhwnd, 1193, 284);//选助战
+      //send_click(subhwnd, 945, 667);
+      //Sleep(500);  //技能2
+      //send_click(subhwnd, 945, 667);
+    }   
+  }
+
+
+  while (true) {  //刷3-10
+    break;
     send_click(subhwnd, 1113, 454); //点3-10
     Sleep(500);
     send_click(subhwnd, 991, 570);//进入副本
@@ -69,10 +133,10 @@ int main() {
     Sleep(1000);
     send_click(subhwnd, 1193, 284);//选助战
     Sleep(10000);
-    send_click(subhwnd, 1155, 670);
+    //send_click(subhwnd, 1155, 670);
     Sleep(500);
-    send_click(subhwnd, 1155, 670);//技能3
-    Sleep(13000);
+    //send_click(subhwnd, 1155, 670);//技能3
+    ///Sleep(13000);
     HDC hdc = GetDC(subwinhwnd);
     while (true) {
       COLORREF clr = ::GetPixel(hdc, 918, 563);
@@ -84,8 +148,34 @@ int main() {
       Sleep(500);  //技能2
       send_click(subhwnd, 945, 667);
     }   
-  } 
+  }
+  while (true) {  //刷1-10
+    //break;
+    send_click(subhwnd, 1149, 317); //点1-10
+    Sleep(500);
+    send_click(subhwnd, 991, 570);//进入副本
+    Sleep(4000);
+    send_click(subhwnd, 1092, 599);//战斗
+    Sleep(1000);
+    send_click(subhwnd, 1193, 284);//选助战
+    Sleep(10000);
+    //send_click(subhwnd, 1155, 670);
+    Sleep(500);
+    //send_click(subhwnd, 1155, 670);//技能3
+    ///Sleep(13000);
+    HDC hdc = GetDC(subwinhwnd);
+    while (true) {
+      COLORREF clr = ::GetPixel(hdc, 1028, 460);
 
+      if ((int)GetRValue(clr) == 245 && (int)GetGValue(clr) == 234 && (int)GetBValue(clr) == 110) {
+        break;
+      }
+      send_click(subhwnd, 945, 667);
+      Sleep(500);  //技能2
+      send_click(subhwnd, 945, 667);
+    }   
+  } 
+  
   while (true) {  //刷高难本
     send_click(subhwnd, 1015, 344); //选60级难度
     Sleep(500);

@@ -1,5 +1,9 @@
-# FZZL-plugin
-Plug-in for FZZL (Ark Order) on win (needs Android simulator)
+# FZZL-plugin ∑Ω÷€÷∏¡Ó∏®÷˙
+Plug-in for FZZL (Ark Order) on windows (needs Android simulator)
+
+Update Logs
+v1.0 
+
 
 ## Functions
 #### Automatically play
